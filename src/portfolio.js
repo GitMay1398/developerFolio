@@ -106,23 +106,29 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Grenoble École de Management",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Mémoire sur la personnalisation et les donnés personnelles",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      logo: require("./assets/images/GEM-logo.png"),
+      subHeader: "Master Manager des Systèmes d'Information et du Numérique",
+      duration: "September 2019 - Septembre 2021",
+      desc: "Mémoire : 'La personnalisation de l'expérience client et les donnés personnelles'",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "EFREI x Université d'Evry Val d'Essonne ",
+      logo: require("./assets/images/efreixevry.png"),
+      subHeader: "Licence professionnelle E-commerce et Marketing Numérique",
+      duration: "September 2018 - Septembre 2019",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "Mémoire : 'Comment une entreprise arrive-t-elle à prédire les besoins de ses consommateurs ?' ",
+      descBullets: []
+    },
+    {
+      schoolName: "IUT d'Orsay",
+      logo: require("./assets/images/iutorsay.png"),
+      subHeader: "DUT Informatique",
+      duration: "September 2016 - Septembre 2018",
+      desc:
+        "Mémoire sur l'agilité  ",
+      descBullets: []
     }
   ]
 };
